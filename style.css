@@ -32,6 +32,7 @@
     background-size: cover;
     padding-top: 50px;
     min-height: 100vh;
+    background-position: center;
 }
 
 .header__after {
@@ -85,7 +86,7 @@
     background-color: var(--Olive-color);
     width: 38px;
     height: 3px;
-    margin-left: 0px;
+    margin-left: 0;
     border: none;
 }
 
@@ -93,11 +94,16 @@
     margin-right: 60px;
     font-family: var(--Lato-font);
     color: var(--White-color);
-    font-size: 13px;
+    font-size: 16px;
     line-height: 24px;
     text-align: right;
     text-decoration: none;
     text-transform: uppercase;
+}
+.header__nav-ul li a:hover {
+    color: black;
+    transition: 0.8s;
+
 }
 
 .header__main-slogan {
